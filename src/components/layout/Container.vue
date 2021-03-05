@@ -25,7 +25,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex: 1 1;
-    height: 400px;
+    height: 300px;
 }
 .aside {
     flex-direction: row;
