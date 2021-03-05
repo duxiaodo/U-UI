@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "dev-test": "parcel watch units/* --no-cache & karma start",
+    "test": "parcel build units/* --no-minify --no-cache && karma start --single-run"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -15,8 +17,20 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "chai": "^4.3.3",
+    "chai-spies": "^1.0.0",
+    "karma": "^6.1.1",
+    "karma-chai": "^0.1.0",
+    "karma-chai-spies": "^0.1.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.1",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^8.3.0",
     "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
     "sass-loader": "^8.0.2",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.5.0",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.8.2"
   },
