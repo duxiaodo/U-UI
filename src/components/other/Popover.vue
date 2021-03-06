@@ -128,8 +128,7 @@ $border-color: #999;
 	}
 
 	.popover-content-bottom {
-		top: 15px;
-		transform: translate(0, 50%);
+		top: 50px;
 
 		&::after {
 			top: -20px;
