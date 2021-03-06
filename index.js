@@ -12,4 +12,8 @@ import OFooter from './src/components/layout/Footer'
 import OToast from './src/components/other/Toast'
 import OTabs from './src/components/other/Tabs'
 import OTabPane from './src/components/other/TabPane'
-export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter, OToast,OTabs, OTabPane };
+import OPopover from './src/components/other/Popover'
+
+
+export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter, OToast,OTabs,
+     OTabPane, OPopover };
