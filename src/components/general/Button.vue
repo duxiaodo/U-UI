@@ -1,6 +1,10 @@
 <template>
-	<button class="o-button" @click="handleClick" :class="{ [size]: size }" :disabled="disabled"
-	:style="{'border-radius': round + 'px'}"
+	<button
+		class="o-button"
+		@click="handleClick"
+		:class="{ [size]: size }"
+		:disabled="disabled"
+		:style="{ 'border-radius': round + 'px' }"
 	>
 		<icon
 			v-if="icon"
@@ -20,48 +24,48 @@
 	</button>
 </template>
 <script>
-import icon from './Icon';
+import icon from './Icon'
 
 export default {
-  components: {
-    icon,
-  },
-  props: {
-    icon: String,
-    position: {
-      type: String,
-      default: 'left',
-      validator(prop) {
-        return !(prop === 'left' && prop === 'right');
-      },
-    },
-    loading: {
-      type: Boolean,
-      default: false,
-    },
-    size: {
-      type: String,
-      default: 'normal',
-    },
-    disabled: Boolean,
-    round: Number,
-  },
-  data() {
-    return {
-      isLoading: '',
-    };
-  },
-  mounted() {
-    this.isLoading = this.loading;
-  },
-  methods: {
-    handleClick() {
-      if (this.loading) {
-        this.isLoading = !this.isLoading;
-      }
-    },
-  },
-};
+	components: {
+		icon,
+	},
+	props: {
+		icon: String,
+		position: {
+			type: String,
+			default: 'left',
+			validator(prop) {
+				return !(prop === 'left' && prop === 'right')
+			},
+		},
+		loading: {
+			type: Boolean,
+			default: false,
+		},
+		size: {
+			type: String,
+			default: 'normal',
+		},
+		disabled: Boolean,
+		round: Number,
+	},
+	data() {
+		return {
+			isLoading: '',
+		}
+	},
+	mounted() {
+		this.isLoading = this.loading
+	},
+	methods: {
+		handleClick() {
+			if (this.loading) {
+				this.isLoading = !this.isLoading
+			}
+		},
+	},
+}
 </script>
 
 <style lang="scss" scoped>

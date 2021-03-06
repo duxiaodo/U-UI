@@ -1,52 +1,56 @@
 <template>
 	<div class="item">
-		基础用法：
-		<o-tabs activeName="third">
-			<o-tab-pane label="用户管理" name="first">用户管理。。。。。。</o-tab-pane>
-			<o-tab-pane label="配置管理" name="second">配置费理。。。。。。</o-tab-pane>
-			<o-tab-pane label="角色管理" name="third">角色管理。。。。。。</o-tab-pane>
-			<o-tab-pane label="定时任务补偿" name="fourth">定时任务。。。。。。</o-tab-pane>
-		</o-tabs>
-		选项卡样式：
-		<o-tabs activeName="third" type="tab">
-			<o-tab-pane label="用户管理" name="first">用户管理。。。。。。</o-tab-pane>
-			<o-tab-pane label="配置管理" name="second">配置费理。。。。。。</o-tab-pane>
-			<o-tab-pane label="角色管理" name="third">角色管理。。。。。。</o-tab-pane>
-			<o-tab-pane label="定时任务补偿" name="fourth">定时任务。。。。。。</o-tab-pane>
-		</o-tabs>
-		卡片样式：
-		<o-tabs activeName="third" type="card">
-			<o-tab-pane label="用户管理" name="first">用户管理。。。。。。</o-tab-pane>
-			<o-tab-pane label="配置管理" name="second">配置费理。。。。。。</o-tab-pane>
-			<o-tab-pane label="角色管理" name="third">角色管理。。。。。。</o-tab-pane>
-			<o-tab-pane label="定时任务补偿" name="fourth">定时任务。。。。。。</o-tab-pane>
-		</o-tabs>
+		<o-popover class="popover">
+			<template v-slot:content>
+				<div>
+					这是一段内容,这是一段内容。
+				</div>
+			</template>
+			<button>点我</button>
+		</o-popover>
+		<o-popover class="popover" position="bottom">
+			<template v-slot:content>
+				<div>
+					这是一段内容,这是一段内容。
+				</div>
+			</template>
+			<button>点我</button>
+		</o-popover>
+		<o-popover class="popover" position="left">
+			<template v-slot:content>
+				<div>
+					这是一段内容,这是一段内容。
+				</div>
+			</template>
+			<button>点我</button>
+		</o-popover>
+		<o-popover class="popover" position="right" trigger='hover'>
+			<template v-slot:content>
+				<div>
+					这是一段内容,这是一段内容。
+				</div>
+			</template>
+			<button>点我</button>
+		</o-popover>
 	</div>
 </template>
 
 <script>
-import OTabs from './components/other/Tabs'
-import OTabPane from './components/other/TabPane'
+import OPopover from './components/other/Popover'
 
 export default {
 	name: 'App',
 	components: {
-		OTabs,
-		OTabPane
+		OPopover,
 	},
 }
 </script>
 
 <style lang="scss" scoped>
 .item {
-	button {
-		background-color: #409eff;
-		padding: 10px 20px;
-		outline: none;
-		border: none;
-		color: #fff;
-		border-radius: 5px;
-		margin-right: 20px;
+	.popover {
+		margin: 100px 100px 0 100px;
 	}
+
 }
 </style>

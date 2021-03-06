@@ -10,5 +10,6 @@ import OAside from './src/components/layout/Aside'
 import OMain from './src/components/layout/Main'
 import OFooter from './src/components/layout/Footer'
 import OToast from './src/components/other/Toast'
-
-export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter, OToast };
+import OTabs from './src/components/other/Tabs'
+import OTabPane from './src/components/other/TabPane'
+export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter, OToast,OTabs, OTabPane };
