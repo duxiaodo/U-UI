@@ -9,5 +9,6 @@ import OHeader from './src/components/layout/Header'
 import OAside from './src/components/layout/Aside'
 import OMain from './src/components/layout/Main'
 import OFooter from './src/components/layout/Footer'
+import OToast from './src/components/other/Toast'
 
-export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter };
+export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter, OToast };

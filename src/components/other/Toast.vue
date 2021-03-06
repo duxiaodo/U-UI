@@ -77,10 +77,12 @@ export default {
 .o-toast {
 	display: flex;
 	position: fixed;
+	z-index: 100;
 	border-radius: 10px;
 	box-sizing: border-box;
 	box-shadow: 0 0 2px 0 #999;
 	padding: 10px 20px;
+	background-color: #fefefe;
 
 	.item {
 		width: 400px;
