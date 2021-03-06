@@ -36,6 +36,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .o-tab-pane {
-	padding: 10px 0;
+	padding: 10px;
 }
 </style>

@@ -62,12 +62,15 @@ export default {
 			this.$destroy()
 			this.closeOptions.callback()
 		},
+		close() {
+			this.$el.remove()
+			this.$destroy()
+		}
 	},
 	mounted() {
 		this.closeOptions.delay &&
 			setTimeout(() => {
-				this.$el.remove()
-				this.$destroy()
+				this.close()
 			}, this.closeOptions.delay)
 	},
 }
