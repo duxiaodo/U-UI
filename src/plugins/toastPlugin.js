@@ -6,8 +6,7 @@ export default {
     install(Vue, options) {
         Vue.prototype.$toast = function(propOptions) {
             if(curToast) {
-                curToast.$el.remove()
-                curToast.$destroy()
+                curToast.close()
             }
             curToast = createToast(Vue, propOptions)
         }
