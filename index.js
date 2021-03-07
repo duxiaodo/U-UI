@@ -13,7 +13,9 @@ import OToast from './src/components/other/Toast'
 import OTabs from './src/components/other/Tabs'
 import OTabPane from './src/components/other/TabPane'
 import OPopover from './src/components/other/Popover'
-
+import OCollapse from './src/components/other/Collapse.vue'
+import OCollapseItem from './src/components/other/CollapseItem'
+import OCodeCollapse from './src/components/other/CodeCollapse'
 
 export { OButton, OButtonGroup, Icon, OInput, ORow, OCol, OContainer, OHeader, OAside, OMain, OFooter, OToast,OTabs,
-     OTabPane, OPopover };
+     OTabPane, OPopover, OCollapse, OCodeCollapse, OCollapseItem };
