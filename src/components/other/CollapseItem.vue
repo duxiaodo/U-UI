@@ -79,7 +79,7 @@ export default {
 	}
 	.o-content {
 		border: 1px solid #999;
-        padding: 0 10px;
+        padding: 10px;
 		border-top: none;
 		color: #666;
 		font-size: 14px;
