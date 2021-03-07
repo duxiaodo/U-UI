@@ -1,6 +1,6 @@
 // 单元测试
 import Vue from 'vue'
-import OButton from '../src/components/general/Button'
+import OButton from '../src/components/general/Button.vue'
 import chai from 'chai'
 import spies from 'chai-spies'
 const expect = chai.expect

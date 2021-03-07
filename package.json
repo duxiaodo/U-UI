@@ -1,7 +1,6 @@
 {
-  "name": "u-ui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "u-ui-develop",
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -28,7 +27,7 @@
     "karma-sinon-chai": "^2.0.2",
     "mocha": "^8.3.0",
     "node-sass": "^4.12.0",
-    "parcel-bundler": "^1.12.3",
+    "parcel": "^2.0.0-beta.1",
     "sass-loader": "^8.0.2",
     "sinon": "^9.2.4",
     "sinon-chai": "^3.5.0",
@@ -39,5 +38,24 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxiaodo/U-UI.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "doxiaodo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duxiaodo/U-UI/issues"
+  },
+  "homepage": "https://github.com/duxiaodo/U-UI#readme"
 }
