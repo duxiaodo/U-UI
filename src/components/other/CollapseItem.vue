@@ -70,6 +70,11 @@ export default {
 		display: flex;
 		justify-content: space-between;
 
+		&:hover {
+			background-color: #409eff;
+			color: #fff;
+		}
+		
 		i {
 			transition: all 1s;
 		}

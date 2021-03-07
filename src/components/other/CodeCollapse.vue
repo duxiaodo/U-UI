@@ -21,7 +21,7 @@
 </template>
 <script>
 import Icon from '../general/Icon'
-import collapse from './collapse.js'
+import collapse from './collapsedown.js'
 
 export default {
 	data() {
@@ -40,12 +40,20 @@ export default {
 </script>
 <style lang="scss" scoped>
 .wrap {
-	border: 1px solid #ccc;
+	box-shadow: 0 0 1px 0 #ccc;
+	border: 1px solid #dedede;
 
 	.o-components {
 		border-bottom: 1px solid #ccc;
 		padding: 10px;
 	}
+    .container {
+        pre {
+            padding: 20px;
+            margin: 0;
+			border-radius: 0;
+        }
+    }
 
 	.button {
 		height: 40px;
@@ -67,5 +75,7 @@ export default {
 	.show {
 		border-top: 1px solid #ccc;
 	}
+
+
 }
 </style>

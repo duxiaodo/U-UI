@@ -21,7 +21,6 @@ export default {
 		<!-- <div id="codeView" >
 			
 		</div> -->
-
 		<collapse>
 			<div class="container" v-show="isActive" v-highlight>
 				<pre><code v-text="code"></code></pre>
@@ -39,6 +38,7 @@ export default {
 	</div>`
 		}
 	},
-
 }
+
+
 </script>
