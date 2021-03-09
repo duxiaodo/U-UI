@@ -60,6 +60,7 @@ export default {
 	},
 	methods: {
 		handleClick() {
+			this.$emit('click')
 			if (this.loading) {
 				this.isLoading = !this.isLoading
 			}
