@@ -1,6 +1,6 @@
 // 单元测试
 import Vue from 'vue'
-import Icon from '../src/components/general/Icon'
+import Icon from '../src/components/general/Icon.vue'
 import chai, { use } from 'chai'
 import spies from 'chai-spies'
 const expect = chai.expect

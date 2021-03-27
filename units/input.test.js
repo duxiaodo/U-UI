@@ -1,6 +1,6 @@
 // 单元测试
 import Vue from 'vue'
-import OInput from '../src/components/form/Input'
+import OInput from '../src/components/form/Input.vue'
 import chai, { use } from 'chai'
 import spies from 'chai-spies'
 const expect = chai.expect
