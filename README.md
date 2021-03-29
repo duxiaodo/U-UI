@@ -1,4 +1,4 @@
-# U-UI-一个基于VUE的UI框架
+# Booker-UI-一个基于VUE的UI框架
 
 [![Build Status](https://travis-ci.com/BookerDrew/Booker-UI.svg?branch=main)](https://travis-ci.com/BookerDrew/Booker-UI)
 
