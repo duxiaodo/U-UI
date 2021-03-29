@@ -1,5 +1,5 @@
 {
-  "name": "u-ui-develop",
+  "name": "booker-ui-develop",
   "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -33,7 +33,8 @@
     "sinon": "^9.2.4",
     "sinon-chai": "^3.5.0",
     "vue-template-compiler": "^2.6.11",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-reco": "^0.3.11"
   },
   "browserslist": [
     "> 1%",
@@ -47,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duxiaodo/U-UI.git"
+    "url": "git+https://github.com/BookerDrew/Booker-UI.git"
   },
   "keywords": [
     "vue",
@@ -56,7 +57,7 @@
   "author": "doxiaodo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/duxiaodo/U-UI/issues"
+    "url": "https://github.com/BookerDrew/Booker-UI/issues"
   },
-  "homepage": "https://github.com/duxiaodo/U-UI#readme"
+  "homepage": "https://github.com/BookerDrew/Booker-UI#readme"
 }

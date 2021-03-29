@@ -1,20 +1,21 @@
 # U-UI-一个基于VUE的UI框架
 
-[![Build Status](https://camo.githubusercontent.com/b059ee4c1782f0d8c314cbaeb9dad7d138157bc5c5a2121d74432eddeee6efeb/68747470733a2f2f7472617669732d63692e636f6d2f646f7869616f646f2f4e4955492e7376673f6272616e63683d6d61696e)](https://travis-ci.com/doxiaodo/NIUI)
+[![Build Status](https://travis-ci.com/BookerDrew/Booker-UI.svg?branch=main)](https://travis-ci.com/BookerDrew/Booker-UI)
+
 
 ## 介绍
 
- `U-UI `是一个不太一样的 UI 框架，本 UI 框架是基于 Vue 2 实现的。
+`Booker-UI` 是一个基于 Vue2 的 UI 组件库，这是我在`Vue` 的使用过程中，开发的一个简单的`UI`框架。
 
-这是我在使用` Vue` 过程中做的一个 `UI` 框架，希望对你有用。
+如果你在使用过程中发现问题， 非常感谢你提出[宝贵意见](https://github.com/BookerDrew/Booker-UI/issues)。
 
-如果你对代码有疑问，欢迎[提issue](https://github.com/duxiaodo/U-UI/issues)。
+目前已开发完成 `Icon`、`Button`、`ButtonGrop`、`Tabs`、`Input`、`Grid`、 `Container`、`Toast`、`Popover` 、`Collapse`、`CodeCollapse`等组件，本 UI 框架是一个「面向[源码 (opens new window)](https://github.com/BookerDrew/Booker-UI)阅读者」的框架，希望对你有所帮助。
 
 
 
 **注意：**
 
-本组件库仅供学习交流，请不要在生产环境中使用本 UI 框架。 欢迎讨论交流，如果你觉得还不错，请[star](https://github.com/duxiaodo/U-UI)
+本组件库仅供学习交流，请不要在生产环境中使用本 UI 框架。 欢迎讨论交流，如果你觉得还不错，请[star](https://github.com/BookerDrew/Booker-UI)
 
 
 
@@ -35,7 +36,7 @@
 - 安装 
 
 ```shell
-$ npm i -D u-ui-develop # 或yarn i -D u-ui-develop
+$ npm i -D booker-ui-develop # 或yarn i -D booker-ui-develop
 ```
 
 
@@ -43,30 +44,17 @@ $ npm i -D u-ui-develop # 或yarn i -D u-ui-develop
 - 局部引入
 
 ```javascript
-import { OButton, OButtonGroup, Icon } from 'u-ui-develop'
+import { OButton, OButtonGroup, Icon } from 'booker-ui-develop'
 ```
 
 
 
 ## 文档
 
-
-
-## 提问
+https://github.com/BookerDrew/Booker-UI/introduce/
 
 
 
 ## 变更记录
 
-
-
-## 联系方式
-
-
-
-## 贡献代码
-
-
-
-## 作者：度小渡
-
+**v1.1.0 :**   `Icon`、`Button`、`ButtonGrop`、`Tabs`、`Input`、`Grid`、 `Container`、`Toast`、`Popover` 、`Collapse`、`CodeCollapse` 等基础组件的实现。
