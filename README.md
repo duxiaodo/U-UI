@@ -51,7 +51,7 @@ import { OButton, OButtonGroup, Icon } from 'booker-ui-develop'
 
 ## 文档
 
-https://github.com/BookerDrew/Booker-UI/introduce/
+https://bookerdrew.github.io/Booker-UI/
 
 
 
